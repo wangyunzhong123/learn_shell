@@ -5,4 +5,12 @@
 
 3.yy 复制一行
 
- 
+4. 查看日志 git log 
+	可添加参数 git log --pretty=oneline
+
+5. HEAD 表示当前版本
+	回退到上一个版本 git reset --hard HEAD^
+	回退到上上一个版本 git reset --hard HEAD^^
+	可直接跟版本号,版本号可用git log 查看 git reset --hard 版本号
+6. git reflog 用来记录每一次命令,关键时候很有用
+
