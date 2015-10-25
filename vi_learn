@@ -14,3 +14,11 @@
 	可直接跟版本号,版本号可用git log 查看 git reset --hard 版本号
 6. git reflog 用来记录每一次命令,关键时候很有用
 
+7. 撤销修改,如果文件还没add到暂存区(还在工作区),可执行git checkout --filename 把工作区的文件filename的修改全部撤销;注意 --
+
+	如果修改已经add到暂存区,执行 git reset HEAD filename 把暂存区的修改撤销掉,重新回到工作区
+
+8. 
+
+	
+
