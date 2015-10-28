@@ -1,0 +1,6 @@
+1. ubuntu下查看ubuntu版本：
+	cat /etc/issue 或
+	sudo lsb_release -a
+
+2. 查看内核版本：
+	uname -r
